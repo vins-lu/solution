@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+    "target": "ES5",
+		"lib": ["ESNext", "DOM"],
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "sourceMap": false,
+    "removeComments": true,
+    "declaration": true,
+    "declarationMap": false,
+    "declarationDir": "./types",
+  },
+  "include": ["./src/**/*"]
+}
